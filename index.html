@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>🌴Sky Squad | Coconut Services</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+        <img src="palm-tree1.png" alt="palm tree"
+        class ="coconut-icon">
+        <span>Sky<span> Squad</span></span>
+    </div>
+
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#products">Coconuts</a>
+        <a href="#services">Services</a>
+        <a href="#team">Our Team</a>
+        <a href="#apply">Apply</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-btn" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+
+        <p class="small-title">
+            <i class="fa-solid fa-leaf"></i>
+            NATURAL • FRESH • TRUSTED
+        </p>
+
+        <h1>
+            From The Tree<br>
+            <span>To Your Hand.</span>
+        </h1>
+
+        <p class="hero-text">
+            Fresh tender coconuts, coconut sales and professional
+            coconut tree climbing services — all under one squad.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#products" class="btn primary-btn">
+                Explore Coconuts
+            </a>
+
+            <a href="#apply" class="btn outline-btn">
+                Book Our Squad
+            </a>
+        </div>
+
+        <div class="hero-stats">
+
+            <div>
+                <strong>100+</strong>
+                <small>Happy Customers</small>
+            </div>
+
+            <div>
+                <strong>500+</strong>
+                <small>Trees Served</small>
+            </div>
+
+            <div>
+                <strong>5+</strong>
+                <small>Years Experience</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about">
+
+    <img src="sky-squad-bg.png"
+         class="about-bg"
+         alt="Sky Squad ">
+
+    <!-- Dark/Light Overlay -->
+    
+
+
+    <div class="about-content">
+
+       
+
+        <h2>
+            Welcome to <span>Sky Squad</span>
+        </h2>
+
+        <p>
+            Sky Squad is a local coconut service team focused on
+            providing fresh tender coconuts and reliable coconut
+            tree services.
+        </p>
+
+        <p>
+            Our experienced climbers help farmers and garden owners
+            with coconut harvesting, tree maintenance and related
+            work.
+        </p>
+
+        <div class="about-points">
+
+            <div>
+                <i class="fa-solid fa-check"></i>
+                Fresh & Natural
+            </div>
+
+            <div>
+                <i class="fa-solid fa-check"></i>
+                Experienced Climbers
+            </div>
+
+            <div>
+                <i class="fa-solid fa-check"></i>
+                Quick Service
+            </div>
+
+            <div>
+                <i class="fa-solid fa-check"></i>
+                Affordable Price
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRODUCTS ================= -->
+
+<section id="products" class="section">
+
+    <div class="section-heading">
+
+        <p class="section-tag">OUR PRODUCTS</p>
+
+        <h2>Fresh From The <span>Farm</span></h2>
+
+        <p>
+            Naturally grown coconuts delivered with freshness.
+        </p>
+
+    </div>
+
+
+    <div class="product-grid">
+
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="Skysquad.jpg" alt="Tender Coconut">
+
+            </div>
+
+            <div class="product-info">
+
+                <h3>Fresh Tender Coconut</h3>
+
+                <p>
+                    Naturally fresh tender coconut with refreshing
+                    coconut water.
+                </p>
+
+                <div class="price">
+                    ₹40 <small>/ piece</small>
+                </div>
+
+    
+            </div>
+
+        </div>
+
+
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="mature coco.jpg" alt="Mature Coconut">
+            </div>
+
+            <div class="product-info">
+
+                <h3>Mature Coconut</h3>
+
+                <p>
+                    Quality mature coconuts suitable for cooking,
+                    oil and household use.
+                </p>
+
+                <div class="price">
+                    ₹35 <small>/ piece</small>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="Coconut.jpg" alt="Bulk Coconut">
+
+            </div>
+
+            <div class="product-info">
+
+                <h3>Bulk Coconut Supply</h3>
+
+                <p>
+                    Bulk coconut supply for shops, hotels,
+                    events and businesses.
+                </p>
+
+                <div class="price">
+                    Custom Price
+                </div>
+
+                <button onclick="orderProduct('Bulk Coconut Supply')">
+                    Enquire Now
+                </button>
+
+            </div>
+
+        </div>
+        
+        <p>The Given Price is Not Fixed.Take the Price as Reference.</p>
+        
+        <p>Based on the Market Condition The Price May Vary</p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section id="services" class="services-section">
+
+    <div class="section-heading">
+
+        <p class="section-tag">WHAT WE DO</p>
+
+        <h2>Our <span>Services</span></h2>
+
+    </div>
+
+
+    <div class="service-grid">
+
+        <div class="service-card">
+
+            <div class="service-icon">
+                <i class="fa-solid fa-tree"></i>
+            </div>
+
+            <h3>Coconut Harvesting</h3>
+
+            <p>
+                Professional coconut harvesting by experienced
+                tree climbers.
+            </p>
+
+            <a href="#apply">Book Service →</a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-icon">
+                <i class="fa-solid fa-person"></i>
+            </div>
+
+            <h3>Tree Cleaning</h3>
+
+            <p>
+                Skilled climbers available for cleaning the trees.
+            </p>
+
+            <a href="#apply">Book Service →</a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-icon">
+                <i class="fa-solid fa-jar"></i>
+            </div>
+
+            <h3>Honey Hunt</h3>
+
+            <p>
+                connects customers with fresh,get natural honey 
+            </p>
+
+            <a href="#apply">Book Service →</a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-icon">
+                <i class="fa-solid fa-truck"></i>
+            </div>
+
+            <h3>Coconut Delivery</h3>
+
+            <p>
+                Fresh coconut delivery for local customers and
+                bulk requirements.
+            </p>
+
+            <a href="#apply">Order Now →</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TEAM ================= -->
+
+<section id="team" class="section">
+
+    <div class="section-heading">
+
+        <p class="section-tag">MEET THE SQUAD</p>
+
+        <h2>Our <span>Team Members</span></h2>
+
+        <p>
+            Meet the skilled people behind Sky Squad.
+        </p>
+
+    </div>
+
+
+    <div class="team-grid">
+
+        <div class="team-card">
+
+            <div class="member-image">
+
+                <img src="Naveen.jpeg"
+                     alt="Team Member">
+
+                <div class="social-overlay">
+
+                    <a href="https://instagram.com/"
+                       target="_blank">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="member-info">
+
+                <h3>Naveen</h3>
+
+
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    5+ Years Experience
+                </span>
+
+                <a class="instagram-btn"
+                   href="https://www.instagram.com/naughty_boii_nanu_03?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
+                   target="_blank">
+
+                    <i class="fa-brands fa-instagram"></i>
+                    Visit Instagram
+
+                </a>
+                <div>
+
+                     <i class="fa-solid fa-phone"></i>
+
+                     <h3>Call </h3>
+
+                     <p>+91 73959 92572</p>
+            
+                 </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="team-card">
+
+            <div class="member-image">
+
+                <img src="images/member2.jpg"
+                     alt="Team Member">
+
+                <div class="social-overlay">
+
+                    <a href="https://instagram.com/"
+                       target="_blank">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="member-info">
+
+                <h3>Kavi</h3>
+
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    5+ Years Experience
+                </span>
+
+                <a class="instagram-btn"
+                   href="https://www.instagram.com/kavisasvith09?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
+                   target="_blank">
+
+                    <i class="fa-brands fa-instagram"></i>
+                    Visit Instagram
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="team-card">
+
+            <div class="member-image">
+
+                <img src="images/member3.jpg"
+                     alt="Team Member">
+
+                <div class="social-overlay">
+
+                    <a href="https://instagram.com/"
+                       target="_blank">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="member-info">
+
+                <h3>Praveen</h3>
+
+                <p>Garden Service Expert</p>
+
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    4+ Years Experience
+                </span>
+
+                <a class="instagram-btn"
+                   href="https://instagram.com/"
+                   target="_blank">
+
+                    <i class="fa-brands fa-instagram"></i>
+                    Visit Instagram
+
+                </a>
+
+            </div>
+
+        </div>
+
+       <div class="team-group-image">
+            <img src="teams.jpeg" alt="Sky Squad Team">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= APPLICATION ================= -->
+<section id="apply" class="application-section">
+
+    <div class="application-container">
+
+        <div class="application-text">
+
+            <p class="section-tag">BOOK OUR SQUAD</p>
+
+            <h2>
+                Need Help In Your <span>Coconut Garden?</span>
+            </h2>
+
+            <p>
+                Tell us about your garden and coconut trees.
+                Our team will contact you and discuss the service.
+            </p>
+
+            <div class="application-features">
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Experienced workers
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Flexible scheduling
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Affordable service
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <form id="bookingForm" class="booking-form">
+
+            <h3>Apply For Coconut Garden Work</h3>
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label>Full Name</label>
+
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           placeholder="Enter your name"
+                           required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Mobile Number</label>
+
+                    <input type="tel"
+                           id="phone"
+                           name="phone"
+                           placeholder="Enter mobile number"
+                           maxlength="10"
+                           required>
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Garden Location</label>
+
+                <input type="text"
+                       id="location"
+                       name="location"
+                       placeholder="Village / Area / City"
+                       required>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label>Number of Trees</label>
+
+                    <input type="number"
+                           id="trees"
+                           name="trees"
+                           placeholder="Example: 50"
+                           min="1"
+                           required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Preferred Date</label>
+
+                    <input type="date"
+                           id="date"
+                           name="date"
+                           required>
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Service Required</label>
+
+                <select id="service"
+                        name="service"
+                        required>
+
+                    <option value="">
+                        Select Service
+                    </option>
+
+                    <option value="Honey Hunt">
+                        Honey Hunt
+                    </option>
+
+                    <option value="Coconut Harvesting">
+                        Coconut Harvesting
+                    </option>
+
+                    <option value="Tree Cleaning">
+                        Tree Cleaning
+                    </option>
+
+                    <option value="Coconut Delivery">
+                        Coconut Delivery
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Additional Message</label>
+
+                <textarea id="message"
+                          name="message"
+                          rows="4"
+                          placeholder="Tell us anything else..."></textarea>
+
+            </div>
+
+
+            <button type="submit" class="submit-btn">
+
+                <i class="fa-solid fa-paper-plane"></i>
+                Submit Request
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= INSTAGRAM ================= -->
+
+<section class="instagram-section">
+
+    <div class="section-heading">
+
+        <p class="section-tag">FOLLOW US</p>
+
+        <h2>Life at <span>Sky Squad</span></h2>
+
+        <p>
+            Follow our journey, work and coconut garden moments.
+        </p>
+
+    </div>
+
+
+    <div class="instagram-box">
+
+        <div class="instagram-icon">
+
+            <i class="fa-brands fa-instagram"></i>
+
+        </div>
+
+        <h3>@skysquad</h3>
+
+        <p>
+            Fresh coconuts • Tree climbing • Cleaning services
+        </p>
+
+        <a href="https://www.instagram.com/_sky_squad_006?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
+
+            <i class="fa-brands fa-instagram"></i>
+           Visit Our Page
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="section-heading">
+
+        <p class="section-tag">GET IN TOUCH</p>
+
+        <h2>Contact <span>Sky Squad</span></h2>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+        <div class="contact-card">
+
+            <i class="fa-solid fa-phone"></i>
+
+            <h3>Call Us</h3>
+
+            <p>+91 73959 92572</p>
+            <p></p>
+
+        </div>
+
+
+        <div class="contact-card">
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+            <h3>WhatsApp</h3>
+
+            <p>Available for bookings</p>
+
+        </div>
+
+
+        <div class="contact-card">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            <h3>Location</h3>
+
+            <p>Tamil Nadu, India</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div class="logo footer-logo">
+
+            <img src="palm-tree1.png" alt="palm tree"
+            class ="coconut-icon">
+
+            <span>Sky<span>Squad</span></span>
+
+        </div>
+
+        <p>
+            Fresh from the tree. Delivered with care.
+        </p>
+
+        <div class="footer-social">
+
+            <a href="https://www.instagram.com/_sky_squad_006?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==">
+
+                <i class="fa-brands fa-instagram"></i>
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-brands fa-facebook"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 Sky Squad. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<!-- ================= SUCCESS POPUP ================= -->
+
+<div id="successModal" class="modal">
+
+    <div class="modal-content">
+
+        <div class="success-icon">
+
+            <i class="fa-solid fa-check"></i>
+
+        </div>
+
+        <h2>Request Submitted!</h2>
+
+        <p>
+            Thank you for contacting Sky Squad.
+            Our team will contact you shortly.
+        </p>
+
+        <button onclick="closeModal()">
+            Done
+        </button>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
